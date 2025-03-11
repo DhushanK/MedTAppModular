@@ -1,0 +1,8 @@
+{
+  "android": {
+    "package": "com.anonymous.medtmobileapptaketwo"
+  },
+  "ios": {
+    "bundleIdentifier": "com.anonymous.medtmobileapptaketwo"
+  }
+}
