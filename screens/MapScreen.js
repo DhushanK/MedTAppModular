@@ -4,7 +4,7 @@ import MapView, { Marker } from 'react-native-maps';
 
 export default function MapScreen() {
   const [region, setRegion] = useState({
-    latitude: 37.7749, // Default location (San Francisco)
+    latitude: 37.7749,
     longitude: -122.4194,
     latitudeDelta: 0.05,
     longitudeDelta: 0.05,

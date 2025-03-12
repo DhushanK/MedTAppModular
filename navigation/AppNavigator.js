@@ -2,12 +2,10 @@ import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 
-// Import your screens
 import HomeScreen from '../screens/HomeScreen';
 import MapScreen from '../screens/MapScreen';
 import ObjectPlacementScreen from '../screens/ObjectPlacement';
 
-// Create Stack Navigator
 const Stack = createStackNavigator();
 
 export default function AppNavigator() {

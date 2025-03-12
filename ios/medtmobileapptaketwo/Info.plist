@@ -50,8 +50,23 @@
       <key>NSAllowsLocalNetworking</key>
       <true/>
     </dict>
+
+    <!-- ✅ Bluetooth Permissions -->
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>This app requires Bluetooth to connect to nearby devices.</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>This app requires Bluetooth to communicate with external accessories.</string>
+
+    <!-- ✅ Location Permissions (Required for BLE on iOS 13+) -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app requires location access to detect nearby Bluetooth devices.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Location access is required to scan for Bluetooth devices even when the app is in the background.</string>
+
+    <!-- ✅ FaceID (Optional) -->
     <key>NSFaceIDUsageDescription</key>
     <string>Allow $(PRODUCT_NAME) to use Face ID</string>
+
     <key>UILaunchStoryboardName</key>
     <string>SplashScreen</string>
     <key>UIRequiredDeviceCapabilities</key>

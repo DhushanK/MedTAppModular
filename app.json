@@ -3,6 +3,20 @@
     "package": "com.anonymous.medtmobileapptaketwo"
   },
   "ios": {
-    "bundleIdentifier": "com.anonymous.medtmobileapptaketwo"
-  }
+    "bundleIdentifier": "com.anonymous.medtmobileapptaketwo",
+    "infoPlist": {
+      "NSBluetoothAlwaysUsageDescription": "This app requires Bluetooth to connect to nearby devices.",
+      "NSBluetoothPeripheralUsageDescription": "This app requires Bluetooth to communicate with external accessories.",
+      "NSLocationWhenInUseUsageDescription": "This app requires location access to detect nearby Bluetooth devices."
+    }
+  },
+  "plugins": [
+    "react-native-ble-plx",
+    [
+      "react-native-permissions",
+      {
+        "BluetoothPeripheral": "This app needs Bluetooth access to connect to external devices."
+      }
+    ]
+  ]
 }
